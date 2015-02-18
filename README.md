@@ -18,7 +18,7 @@ to work, so I made this.*
 Requirements
 ------------
 - Honeywell Wireless Thermostat or Redlink Internet Gateway
-- [My Total Connect Comfort Account](https://rs.alarmnet.com/TotalConnectComfort/ws/MobileV2.asmx)
+- [My Total Connect Comfort Account](https://mytotalconnectcomfort.com/)
 - Valid AppID - for example: 5o950s6r-sp89-4o84-9046-4n0009q9oq3o Note, this is
   not an actual AppID[.](http://www.rot13.com)
 - Perl Modules: LWP::Simple XML::TreePP HTTP::Request::Common Data::Dumper Config::Simple
@@ -38,7 +38,7 @@ sudo cpanm LWP::Simple XML::TreePP HTTP::Request::Common Data::Dumper Config::Si
 Installation
 --------------------
 1. Install Perl modules.
-2. Obtain a valid AppID (Hint: they use a static key in their iOS app; Charles proxy w/ SSL support will help you here)
+2. Obtain a [valid](http://www.rot13.com) AppID (Hint: they use a static key in their iOS app; Charles proxy w/ SSL support will help you here)
 3. Create a config file in ~/.redlink.ini that looks like so (you need your
 valid appid though):
 <pre>
