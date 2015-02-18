@@ -20,7 +20,7 @@ Requirements
 - Honeywell Wireless Thermostat or Redlink Internet Gateway
 - [My Total Connect Comfort Account](https://rs.alarmnet.com/TotalConnectComfort/ws/MobileV2.asmx)
 - Valid AppID - for example: 5o950s6r-sp89-4o84-9046-4n0009q9oq3o Note, this is
-  not an actual(http://www.rot13.com/) AppID.
+  not an actual AppID[.](http://www.rot13.com)
 - Perl Modules: LWP::Simple XML::TreePP HTTP::Request::Common Data::Dumper Config::Simple
 
 I recommend installing [cpanminus](https://github.com/miyagawa/cpanminus) and
